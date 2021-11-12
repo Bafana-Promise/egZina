@@ -1,0 +1,22 @@
+{
+    "routes": [
+        {
+            "component": "homeComponent",
+            "path": "home"
+        },
+        {
+            "component": "flexComponent",
+            "path": "flex"
+        },
+        {
+            "path": "''",
+            "redirectTo": "home",
+            "pathMatch": "full",
+            "default": true
+        },
+        {
+            "path": "**",
+            "component": "PageNotFoundComponent"
+        }
+    ]
+}

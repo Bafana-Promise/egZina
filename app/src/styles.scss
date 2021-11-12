@@ -1,0 +1,44 @@
+/*Importing default angular material css theme. */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "nDefaults.scss";
+
+.mainContainer{
+    height: 100vh;
+}
+
+.height{
+    height: 31vh;
+}
+
+.firstSecYellow{
+    background-color: yellow;
+}
+
+.firstSecMarroon{
+    background-color: maroon;
+}
+
+.redColor{
+    background-color: red;
+}
+
+.blueColor{
+    background-color: blue !important;
+}
+
+.purpleColor{
+    background-color: purple !important;
+}
+
+.greenColor{
+    background-color: greenyellow !important;
+}
+
+.orangeColor{
+    background-color: orange;
+}
+
+.fullWidth {
+    width: 100%;
+}
